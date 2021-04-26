@@ -40,7 +40,7 @@ class _State extends State<MyApp> {
     _chartdata.add(new charts.Series(
         id: 'Sales',
         //colorFn: (_,__) => charts.MaterialPalette.red.shadeDefault, //Old version
-        colorFn: (Sales sales,__) => charts.MaterialPalette.red.shadeDefault,
+        colorFn: (Sales sales,__) => charts.MaterialPalette.green.shadeDefault,
         data: _data,
         domainFn: (Sales sales, _) => sales.year,
         measureFn: (Sales sales, _) => sales._sales,
